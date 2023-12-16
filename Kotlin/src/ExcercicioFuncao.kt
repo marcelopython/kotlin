@@ -39,7 +39,7 @@ fun infoYear(year: Int) {
     val months = year * 12;
     println("$months meses")
 
-    val days = months * 30
+    val days = 365 * year
     println("$days dias")
 
     val hours = days * 24
