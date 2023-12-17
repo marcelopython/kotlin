@@ -35,7 +35,27 @@ fun main(){
     println(E)
     println(round(23234234234.234234))
 
+    println("Media")
 
+    println(media(1f, 2f, 3f, 4f, 76f, 8f, "asdf", false))
+}
+
+// Generic
+fun <T> media(vararg notas: T): Float {
+    var soma = 0f
+    for( n in notas){
+
+        if(n is Float){
+
+            soma += n
+
+        }else if(n is String){
+
+            println(n)
+
+        }
+    }
+    return (soma / notas.size)
 }
 
 
