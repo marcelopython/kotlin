@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    android:padding="16dp"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:src="@drawable/ic_split"
+        android:layout_width="256dp"
+        app:tint="@color/red"
+        android:layout_height="256dp"
+    />
+
+
+</LinearLayout>

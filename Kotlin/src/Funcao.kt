@@ -38,6 +38,17 @@ fun main(){
     println("Media")
 
     println(media(1f, 2f, 3f, 4f, 76f, 8f, "asdf", false))
+
+
+    arrayOf(2, 2, 2, 2, 2, 2, 't', "teste")
+
+    // Any, Unit e Nothing
+
+
+}
+
+fun valores (value: Any): Unit{
+
 }
 
 // Generic
